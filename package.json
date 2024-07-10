@@ -1,12 +1,20 @@
 {
-    "name": "stanza",
+    "name": "@rockliffe/stanza",
     "description": "Modern XMPP in the browser, with a JSON API",
     "version": "12.20.0",
     "author": "Lance Stout <lancestout@gmail.com>",
-    "bugs": "https://github.com/legastero/stanza/issues",
+    "bugs": {
+        "url": "https://github.com/legastero/stanza/issues"
+    },
     "contributors": [
-        "Philipp Hancke <fippo@andyet.net>",
-        "Steven Lloyd Watkin <lloyd@evilprofessor.co.uk>"
+        {
+            "name": "Philipp Hancke",
+            "email": "fippo@andyet.net"
+        },
+        {
+            "name": "Steven Lloyd Watkin",
+            "email": "lloyd@evilprofessor.co.uk"
+        }
     ],
     "dependencies": {
         "@types/async": "^3.2.5",
@@ -74,7 +82,7 @@
     "private": true,
     "repository": {
         "type": "git",
-        "url": "https://github.com/legastero/stanza.git"
+        "url": "git+https://github.com/rockliffe/stanza.git"
     },
     "scripts": {
         "build": "ts-node scripts/build",
