@@ -71,7 +71,7 @@
     ],
     "license": "MIT",
     "main": "./dist/cjs/index.js",
-    "module": "./dist/cjs/index.js",
+    "module": "./dist/es/index.js",
     "prettier": {
         "tabWidth": 4,
         "printWidth": 100,
